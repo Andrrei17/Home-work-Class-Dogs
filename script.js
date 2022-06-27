@@ -1,10 +1,3 @@
-const p = document.querySelectorAll('p');
-
-console.log (p); 
-
-
-
-
 class Dogs {
     constructor (breed, name, voice){
         this.breed = breed;
@@ -44,3 +37,5 @@ function findVoice (dog) {
 }
 
 console.log (findVoice(chappy));
+
+
